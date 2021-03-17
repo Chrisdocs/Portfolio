@@ -1,9 +1,86 @@
 /* Header */
+* {
+    background: rgb(37, 37, 37);
+}
 
-header {
-    background: beige;
+header h1 img {
+    max-height: 300px;
+}
+
+header h1 {
+    display: inline;
+}
+header h1 a {
+
 }
 
 header nav {
+    float: right;
     display: inline;
+}
+
+/*
+header nav ul li {
+    display: inline;
+    padding: 40px;
+}
+*/
+.menu-content {
+    font-family: 'oswald', sans-serif;
+    padding: 0 0 0 50px;
+}
+
+.collapsible-menu {
+    background-color: rgb(37, 37, 37);
+    padding: 0px 30px;
+    border-bottom: 3px solid #000000;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.collapsible-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.collapsible-menu label {
+    font-family: 'sedgwick Ave Display', cursive;
+    font-size: 56px;
+    display: block;
+    cursor: pointer;
+    background: img() no-repeat left center;
+    padding: 10px 0 10px 50px;
+}
+
+input#menu {
+    display: none;
+}
+
+input:checked +label {
+    background-image: url(close.png);
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+/* Toggle Effect */
+input:checked ~ label {
+    background-image: url(close.png);
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+
+.hero {
+    display: inline;
+    margin: 100%;
+    height: 600px;
 }

@@ -6,26 +6,30 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Wolfe Web Development</title>
     <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <link rel="javascript" href="./assets/javascript/java.js" />
 </head>
 <!--BODY START-->
     <body>
 <!--HEADER START-->
         <header>
-            <h1>Wolfe Web Development</h1>
-
-        <div class="nav">
+            <h1>
+                <a href="/">
+                    <img src="./assets/images/Logo.png" />
+                </a>
+            </h1>
             <nav>
-                <li>
-                    <a href="#About Me">About my</a>
-                </li>
-                <li>
-                    <a href="#My Work">My Work</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
+                <div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu"><img src="./assets/images/menu-button.png" /></label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#About Me">About me</a></li>
+                            <li><a href="#My Work">My Work</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-        </div>
 
     </header>
 <!--HEADER END-->
@@ -33,7 +37,6 @@
     <main>
 <!--SECTION/HERO START-->
         <section class="hero">
-            <img src="https://placehold.it/200x200" alt="" />
         </section>
 <!--SECTION/HERO END-->
 <!--SECTION CONTENT START-->
