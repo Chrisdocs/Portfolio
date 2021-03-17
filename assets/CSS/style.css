@@ -1,17 +1,27 @@
 /* Header */
 * {
-    background: rgb(37, 37, 37);
+    background: #f8f8ff;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header h1 p {
+    text-align: center;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    color: #7e8aa1;
+    margin: 0px;
 }
 
 header h1 img {
-    max-height: 300px;
-}
-
-header h1 {
-    display: inline;
-}
-header h1 a {
-
+    max-height: 400px;
+    max-width: 400px;
+    display: inline-block;
+    align-items: center;
 }
 
 header nav {
@@ -19,22 +29,20 @@ header nav {
     display: inline;
 }
 
-/*
-header nav ul li {
-    display: inline;
-    padding: 40px;
-}
-*/
 .menu-content {
     font-family: 'oswald', sans-serif;
     padding: 0 0 0 50px;
 }
 
+.collapsible-menu img {
+    max-width: 40px;
+}
+
 .collapsible-menu {
-    background-color: rgb(37, 37, 37);
+    background-color: #f8f8ff;
     padding: 0px 30px;
-    border-bottom: 3px solid #000000;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    border-bottom: 3px solid #f8f8ff;
+    box-shadow: 1px 2px 3px #f8f8ff;
 }
 
 .collapsible-menu ul {
@@ -46,15 +54,22 @@ header nav ul li {
     display: block;
     padding: 10px;
     text-decoration: none;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #626d81;
+}
+
+.collapsible-menu a:hover {
+    color: #ffdac1;
 }
 
 .collapsible-menu label {
-    font-family: 'sedgwick Ave Display', cursive;
-    font-size: 56px;
-    display: block;
+    display: inline-block;
     cursor: pointer;
-    background: img() no-repeat left center;
-    padding: 10px 0 10px 50px;
+    background: url(menu-button.png) no-repeat left center;
+    background-size: 100%;
+    padding: 25px;
 }
 
 input#menu {
@@ -62,25 +77,28 @@ input#menu {
 }
 
 input:checked +label {
-    background-image: url(close.png);
+    background-image: url(menu-button.png);
+    background-size: 20% 20%;
 }
 
 .menu-content {
     max-height: 0;
     overflow: hidden;
     font-family: 'Oswald', sans-serif; 
-    padding: 0 0 0 50px;
+    padding: 0 0 0 0;
 }
+
 /* Toggle Effect */
 input:checked ~ label {
     background-image: url(close.png);
+    background-size: 100%;
 }
 input:checked ~ .menu-content {
     max-height: 100%;
 }
 
 .hero {
-    display: inline;
-    margin: 100%;
-    height: 600px;
+    display: inline-block;
+    margin: 0;
+    height: 300px
 }
