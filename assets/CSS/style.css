@@ -102,3 +102,46 @@ input:checked ~ .menu-content {
     margin: 0;
     height: 300px
 }
+
+section .border-style {
+    padding: 20px;
+    margin: 80px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #626d81;
+    border-radius: 25px;
+    background: #626d81;
+}
+
+section h2 {
+    background: #ffdac1;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    text-align: center;
+    border: 10px solid #ffdac1;
+    border-radius: 25px;
+    color: #626d81;
+}
+
+section .about {
+    text-align: center;
+    font-size: 25px;
+}
+
+section p {
+    background: #626d81;
+}
+
+section h3 {
+    background: #626d81;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}
+
+section li {
+    background: #626d81;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}
+
+section li a {
+    background: #626d81;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}
