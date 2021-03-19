@@ -1,0 +1,22 @@
+* {
+    background: #f8f8ff;
+}
+
+#header-section {
+    background: #7e8aa1;
+    max-height: 100px;
+    border: 10px #7e8aa1;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 15px;
+}
+
+#header-section a {
+    background: #7e8aa1;
+}
+
+#header-section .header-image {
+    max-height: 100px;
+    background: #7e8aa1;
+    border-radius: 15px 0 0 15px;
+}
