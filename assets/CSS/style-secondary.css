@@ -44,15 +44,6 @@ li a {
     font-size: 32px;
 }
 
-li a:visited {
-    color: #7e8aa1;
-    text-decoration: none;
-}
-
-li a:hover {
-    color: #ffdac1;
-}
-
 section .border-style {
     padding: 20px;
     border-style: solid;
@@ -71,3 +62,17 @@ section p {
     background-color: #7e8aa1;
 }
 
+li a:visited {
+    color: #7e8aa1;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ffdac1;
+}
+
+.menu-content .menulow li {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px 40px 10px 40px;
+}
