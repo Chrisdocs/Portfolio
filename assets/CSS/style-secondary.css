@@ -23,12 +23,20 @@
     border-radius: 15px 0 0 15px;
 }
 
+.border-style {
+    float: left;
+}
+
 h1 {
     display: inline-block;
     float: left;
     margin: 50px;
     color: #7e8aa1;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}
+
+ul {
+    background: #7e8aa1;
 }
 
 li {
@@ -44,6 +52,37 @@ li a {
     font-size: 32px;
 }
 
+section h2 {
+    background: #ffdac1;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    text-align: center;
+    border: 10px solid #ffdac1;
+    border-radius: 25px;
+    color: #ffdac1;
+    text-decoration: none;
+    padding: 10px;
+    margin: 50px 0 50px 0;
+}
+
+section h2 a {
+    background: #7e8aa1;
+    text-decoration: none;
+    color: #ffdac1;
+}
+
+section h2 .a:hover {
+    color: #f8f8ff;
+}
+section h2 .b:hover {
+    color: #f8f8ff;
+}
+section h2 .c:hover {
+    color: #f8f8ff;
+}
+section h2 a:visited {
+color: #ffdac1;
+}
+
 section .border-style {
     padding: 20px;
     border-style: solid;
@@ -51,7 +90,7 @@ section .border-style {
     border-color: #7e8aa1;
     border-radius: 25px;
     background: #7e8aa1;
-    display: inline-block;
+    width: -webkit-fill-available;
 }
 
 section h2 {
