@@ -1,0 +1,118 @@
+/*universal controls */
+* {
+    background: #f8f8ff;
+}
+
+* a:visited {
+    color: #7e8aa1;
+    text-decoration: none;
+}
+
+* a:hover {
+    color: #ffdac1;
+}
+
+* a {
+    text-decoration: none;
+}
+
+#header-section {
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+    display: inline-block;
+}
+
+#header-section .header-image {
+    max-height: 100px;
+}
+
+h1 {
+    display: inline;
+    margin: 50px;
+    color: #7e8aa1;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}
+
+#title {
+    display: inline;
+}
+
+#home-return {
+    display: inline-block;
+    float: right;
+    margin: 75px 20px 0 0;
+    color: #7e8aa1;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+section h2 {
+    background: #7e8aa1;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    text-align: center;
+    border: 10px solid #ffdac1;
+    border-radius: 25px;
+    color: #ffdac1;
+    text-decoration: none;
+    padding: 10px;
+    margin: 50px 0 50px 0;
+}
+
+.border-style {
+    margin: 10px;
+}
+
+.menulow {
+    padding: 0;
+}
+
+.border-style p {
+    background: #f8f8ff;
+    color: #7e8aa1;
+    border: 10px dashed #ffdac1;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    font-size: 22px;
+}
+
+.menu-content p {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}
+
+.menu-content p a {
+    margin: 15px;
+}
+
+section h2 a {
+    background: #7e8aa1;
+    text-decoration: none;
+    color: #ffdac1;
+    text-align: center;
+}
+
+section h2 .e:hover {
+    color: #f8f8ff;
+}
+section h2 .g:hover {
+    color: #f8f8ff;
+}
+section h2 .l:hover {
+    color: #f8f8ff;
+}
+section h2 a:visited {
+color: #ffdac1;
+}
+
+footer {
+    color: #7e8aa1;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin: 200px;
+}
