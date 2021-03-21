@@ -11,10 +11,6 @@
     color: #ffdac1;
 }
 
-* a:link {
-    color: #7e8aa1;
-}
-
 * a {
     text-decoration: none;
 }
@@ -99,13 +95,13 @@ section h2 a {
     text-align: center;
 }
 
-section h2 .a:hover {
+section h2 .e:hover {
     color: #f8f8ff;
 }
-section h2 .b:hover {
+section h2 .g:hover {
     color: #f8f8ff;
 }
-section h2 .c:hover {
+section h2 .l:hover {
     color: #f8f8ff;
 }
 section h2 a:visited {
