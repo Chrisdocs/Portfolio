@@ -11,6 +11,10 @@
     color: #ffdac1;
 }
 
+* a:link {
+    color: #7e8aa1;
+}
+
 * a {
     text-decoration: none;
 }
