@@ -145,3 +145,10 @@ section li a {
     background: #626d81;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
 }
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    color: #7e8aa1;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}

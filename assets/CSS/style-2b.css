@@ -2,58 +2,55 @@
     background: #f8f8ff;
 }
 
-#header-section {
-    background: #7e8aa1;
-    max-height: 100px;
-    border: 10px #7e8aa1;
-    border-radius: 15px;
-    margin: 5px;
-    padding: 15px;
-    display: inline-block;
-    float: left;
+* a:visited {
+    color: #7e8aa1;
+    text-decoration: none;
 }
 
-#header-section a {
-    background: #7e8aa1;
+* a:hover {
+    color: #ffdac1;
+}
+
+* a {
+    text-decoration: none;
+}
+
+#header-section {
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+    display: inline-block;
 }
 
 #header-section .header-image {
     max-height: 100px;
-    background: #7e8aa1;
-    border-radius: 15px 0 0 15px;
-}
-
-.border-style {
-    float: left;
 }
 
 h1 {
-    display: inline-block;
-    float: left;
+    display: inline;
     margin: 50px;
     color: #7e8aa1;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
 }
 
-ul {
-    background: #7e8aa1;
+#title {
+    display: inline;
 }
 
-li {
+#home-return {
     display: inline-block;
     float: right;
+    margin: 75px 20px 0 0;
     color: #7e8aa1;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
-    margin: 54px;
-}
-
-li a {
-    text-decoration: none;
     font-size: 32px;
+    font-weight: bold;
 }
 
 section h2 {
-    background: #ffdac1;
+    background: #7e8aa1;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
     text-align: center;
     border: 10px solid #ffdac1;
@@ -64,10 +61,38 @@ section h2 {
     margin: 50px 0 50px 0;
 }
 
+.border-style {
+    margin: 10px;
+}
+
+.menulow {
+    padding: 0;
+}
+
+.border-style p {
+    background: #f8f8ff;
+    color: #7e8aa1;
+    border: 10px dashed #ffdac1;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    font-size: 22px;
+}
+
+.menu-content p {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}
+
+.menu-content p a {
+    margin: 15px
+}
+
 section h2 a {
     background: #7e8aa1;
     text-decoration: none;
     color: #ffdac1;
+    text-align: center;
 }
 
 section h2 .a:hover {
@@ -83,42 +108,10 @@ section h2 a:visited {
 color: #ffdac1;
 }
 
-section .border-style {
-    padding: 20px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #7e8aa1;
-    border-radius: 25px;
-    background: #7e8aa1;
-    width: -webkit-fill-available;
-}
-
-section h2 {
-    background-color: #7e8aa1;
-}
-
-section p {
-    background-color: #7e8aa1;
-}
-
-li a:visited {
-    color: #7e8aa1;
-    text-decoration: none;
-}
-
-li a:hover {
-    color: #ffdac1;
-}
-
-.menu-content .menulow li {
-    text-align: center;
-    margin: 0 auto;
-    padding: 2px 40px 10px 40px;
-}
-
-footer p {
-    font-size: 12px;
-    text-align: center;
+footer {
     color: #7e8aa1;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin: 200px;
 }
