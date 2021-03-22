@@ -146,79 +146,10 @@ section li a {
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
 }
 
-footer p {
-    font-size: 12px;
-    text-align: center;
+footer {
     color: #7e8aa1;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
-}
-
-.dot {
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    background-color: #7e8aa1;
-    display: inline-block;
-}
-
-#d1 {
-    position: relative;
-    top: 80px;
-    left: 200px;
-    display: inline-block;
-}
-
-#d2 {
-    position: relative;
-    top: 380px;
-    left: 850px;
-    display: inline-block;
-}
-
-#d3 {
-    position: relative;
-    top: 695px;
-    left: 200px;
-    display: inline-block;
-}
-
-#d4 {
-    margin: 0 0 0 80%;
-    position: relative;
-    top: 1010px;
-    right: 660px;
-    display: inline-block;
-}
-
-#l1 {
-    background-color: #ffdac1;
-    width: 600px;
-    height: 6px;
-    transform: rotate(180deg);
-    display: inline-block;
-    position: relative;
-    top: 215px;
-    left: 300px;
-}
-
-#l2 {
-    background-color: #ffdac1;
-    width: 600px;
-    height: 6px;
-    transform: rotate(180deg);
-    display: inline-block;
-    position: relative;
-    top: 545px;
-    left: 300px;
-}
-
-#l3 {
-    background-color: #ffdac1;
-    width: 600px;
-    height: 6px;
-    transform: rotate(180deg);
-    display: inline-block;
-    position: relative;
-    top: 905px;
-    left: 300px;
+    text-align: center;
+    font-size: 12px;
+    margin: 200px;
 }
