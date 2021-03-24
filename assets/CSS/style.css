@@ -10,6 +10,11 @@
     width: 50%;
 }
 
+.logo-top {
+    display: flex;
+    justify-content: center;
+}
+
 header h1 p {
     text-align: center;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
