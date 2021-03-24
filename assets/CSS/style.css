@@ -22,14 +22,13 @@ header h1 p {
     margin: 0px;
 }
 
-header nav {
-    float: right;
-    display: inline;
-}
-
 .menu-content {
     font-family: 'oswald', sans-serif;
     padding: 0 0 0 50px;
+}
+
+.collapsible-menu {
+    display: flex;
 }
 
 .collapsible-menu img {
@@ -37,10 +36,7 @@ header nav {
 }
 
 .collapsible-menu {
-    background-color: #f8f8ff;
     padding: 0px 30px;
-    border-bottom: 3px solid #f8f8ff;
-    box-shadow: 1px 2px 3px #f8f8ff;
 }
 
 .collapsible-menu ul {
@@ -63,7 +59,6 @@ header nav {
 }
 
 .collapsible-menu label {
-    display: inline-block;
     cursor: pointer;
     background: url(menu-button.png) no-repeat left center;
     background-size: 100%;
@@ -80,6 +75,8 @@ input:checked +label {
 }
 
 .menu-content {
+    display: flex;
+    justify-content: space-around;
     max-height: 0;
     overflow: hidden;
     font-family: 'Oswald', sans-serif; 
