@@ -1,17 +1,7 @@
-header {
+.flex-container-header {
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-header .header-title-home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header-img {
-    display: flex;
+    justify-content: space-between;
 }
 
 .header-img img {
@@ -19,19 +9,8 @@ header .header-title-home {
 }
 
 .title-about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.home-return {
-
-}
-
-.home-return a {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    margin: 0 0 0 100px;
+    flex: auto;
 }
 
 .sub-title {
