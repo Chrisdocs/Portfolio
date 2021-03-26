@@ -1,118 +1,129 @@
-/*universal controls */
-* {
-    background: #f8f8ff;
+/* Global Controls */
+:root {
+    --background-primary: #f8f8ff;
+    --primary-text: #7e8aa1;
+    --text-hover: #ffdac1;
+    --background-secondary: #faf6f3;
 }
 
-* a:visited {
-    color: #7e8aa1;
-    text-decoration: none;
+/* Header Section */
+.flex-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-* a:hover {
-    color: #ffdac1;
-}
-
-* a {
-    text-decoration: none;
-}
-
-#header-section {
-    max-height: 100px;
+.header-img img {
     max-width: 100px;
-    border-radius: 15px;
-    margin: 20px;
-    padding: 15px;
-    display: inline-block;
 }
 
-#header-section .header-image {
-    max-height: 100px;
+.title {
+    margin: 0 0 0 10%;
+    flex: auto;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    font-size:;
+    color: var(--primary-text);
 }
 
-h1 {
-    display: inline;
-    margin: 50px;
-    color: #7e8aa1;
+.home-return a {
+    font-weight: bold;
+    color: var(--primary-text);
+    text-decoration: none;
+}
+
+.home-return a:hover {
+    color: var(--text-hover);
+}
+
+/* Body Content */
+.sub-title {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-text);
+    font-size: 20px;
+    background-color: var(--background-secondary);
+    border: 6px solid var(--text-hover);
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 6px solid var(--text-hover);
+    border-radius: 20px;
+    margin: 5%;
+    background-color: var(--background-secondary);
+}
+
+.me-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.me-photo img {
+    max-height: 200px;
+    border: 6px solid var(--text-hover);
+    border-radius: 50%;
+}
+
+.about-main, .about-quote {
+    font-size: x-large;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    color: var(--primary-text);
+    text-align: center;
+    padding: 5%;
+}
+
+.about-quote {
+    font-size: large;
+}
+
+/* Menu Navigation */ 
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
 }
 
-#title {
-    display: inline;
-}
-
-#home-return {
-    display: inline-block;
-    float: right;
-    margin: 75px 20px 0 0;
-    color: #7e8aa1;
-    font-family: "Geomanist", Helvetica, Arial, sans-serif;
-    font-size: 32px;
+.menu-nav li {
+    padding: 25px;
+    font-size: 2.5vw;
     font-weight: bold;
 }
 
-section h2 {
-    background: #7e8aa1;
-    font-family: "Geomanist", Helvetica, Arial, sans-serif;
-    text-align: center;
-    border: 10px solid #ffdac1;
-    border-radius: 25px;
-    color: #ffdac1;
-    text-decoration: none;
+.menu-nav a {
+    background-color: var(--primary-text);
+    color: var(--text-hover);
+    border-radius: 15px;
     padding: 10px;
-    margin: 50px 0 50px 0;
-}
-
-.border-style {
-    margin: 10px;
-}
-
-.menulow {
-    padding: 0;
-}
-
-.border-style p {
-    background: #f8f8ff;
-    color: #7e8aa1;
-    border: 10px dashed #ffdac1;
-    border-radius: 25px;
-    padding: 20px 20px 20px 20px;
-    font-size: 22px;
-}
-
-.menu-content p {
-    text-align: center;
-    font-size: 32px;
-    font-family: "Geomanist", Helvetica, Arial, sans-serif;
-}
-
-.menu-content p a {
-    margin: 15px;
-}
-
-section h2 a {
-    background: #7e8aa1;
     text-decoration: none;
-    color: #ffdac1;
-    text-align: center;
 }
 
-section h2 .e:hover {
-    color: #f8f8ff;
-}
-section h2 .g:hover {
-    color: #f8f8ff;
-}
-section h2 .l:hover {
-    color: #f8f8ff;
-}
-section h2 a:visited {
-color: #ffdac1;
+.menu-nav a:hover {
+    background-color: var(--text-hover);
+    color: var(--primary-text);
 }
 
-footer {
-    color: #7e8aa1;
-    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+.menu-nav img {
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.leaf-png {
+    height: 50%;
+    padding-top: 2.5%;
+}
+
+/* Footer */
+.section-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.section-footer h4 {
     text-align: center;
-    font-size: 12px;
-    margin: 200px;
 }

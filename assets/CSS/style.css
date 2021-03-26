@@ -1,155 +1,112 @@
-/* Header */
+/* Global controls */
 * {
-    background: #f8f8ff;
+    background: var(--background-primary);
+}
+
+:root {
+    --background-primary: #f8f8ff;
+    --primary-text: #7e8aa1;
+    --text-hover: #ffdac1;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header Section */
+
+header {
+    
 }
 
 .center {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    max-height: 400px;
+    max-width: 400px;
 }
 
-header h1 p {
-    text-align: center;
+.logo-top {
+    display: flex;
+    justify-content: center;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
-    color: #7e8aa1;
+    color: var(--primary-text);
     margin: 0px;
 }
 
-header h1 img {
-    max-height: 400px;
-    max-width: 400px;
-    display: inline-block;
+.header-title p {
+    font-size: 5vw;
+}
+
+/* Menu Navigation */
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}
+
+.menu-nav li {
+    padding: 25px;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.menu-nav a {
+    background-color: var(--primary-text);
+    color: var(--text-hover);
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-nav a:hover {
+    background-color: var(--text-hover);
+    color: var(--primary-text);
+}
+
+.menu-nav img {
+    max-width: 50px;
+    display: flex;
     align-items: center;
 }
 
-header nav {
-    float: right;
-    display: inline;
+.leaf-png {
+    height: 50%;
+    padding-top: 2.5%;
 }
 
-.menu-content {
-    font-family: 'oswald', sans-serif;
-    padding: 0 0 0 50px;
-}
-
-.collapsible-menu img {
-    max-width: 40px;
-}
-
-.collapsible-menu {
-    background-color: #f8f8ff;
-    padding: 0px 30px;
-    border-bottom: 3px solid #f8f8ff;
-    box-shadow: 1px 2px 3px #f8f8ff;
-}
-
-.collapsible-menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.collapsible-menu a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    font-family: "Geomanist", Helvetica, Arial, sans-serif;
-    font-size: 22px;
-    font-weight: bold;
-    color: #626d81;
-}
-
-.collapsible-menu a:hover {
-    color: #ffdac1;
-}
-
-.collapsible-menu label {
-    display: inline-block;
-    cursor: pointer;
-    background: url(menu-button.png) no-repeat left center;
-    background-size: 100%;
-    padding: 25px;
-}
-
-input#menu {
-    display: none;
-}
-
-input:checked +label {
-    background-image: url(menu-button.png);
-    background-size: 20% 20%;
-}
-
-.menu-content {
-    max-height: 0;
-    overflow: hidden;
-    font-family: 'Oswald', sans-serif; 
-    padding: 0 0 0 0;
-}
-
-/* Toggle Effect */
-input:checked ~ label {
-    background-image: url(close.png);
-    background-size: 100%;
-}
-input:checked ~ .menu-content {
-    max-height: 100%;
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
-    display: inline-block;
+    display: flex;
     margin: 0;
     height: 300px
 }
 
-section .border-style {
-    padding: 20px;
-    margin: 80px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #626d81;
-    border-radius: 25px;
-    background: #626d81;
+.section-content {
+    margin: 15%;
 }
 
-section h2 {
-    background: #ffdac1;
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    color: var(--primary-text);
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
     text-align: center;
-    border: 10px solid #ffdac1;
-    border-radius: 25px;
-    color: #626d81;
-}
-
-section .about {
-    text-align: center;
-    font-size: 25px;
-}
-
-section p {
-    background: #626d81;
-}
-
-section h3 {
-    background: #626d81;
-    font-family: "Geomanist", Helvetica, Arial, sans-serif;
-}
-
-section li {
-    background: #626d81;
-    font-family: "Geomanist", Helvetica, Arial, sans-serif;
-}
-
-section li a {
-    background: #626d81;
-    font-family: "Geomanist", Helvetica, Arial, sans-serif;
-}
-
-footer {
-    color: #7e8aa1;
-    font-family: "Geomanist", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-size: 12px;
-    margin: 200px;
+    font-size: 1.2vh;
 }
