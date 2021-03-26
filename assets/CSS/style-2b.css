@@ -3,6 +3,7 @@
     --background-primary: #f8f8ff;
     --primary-text: #7e8aa1;
     --text-hover: #ffdac1;
+    --background-secondary: #faf6f3;
 }
 
 /* Header Section */
@@ -17,14 +18,14 @@
 }
 
 .title {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 10%;
     flex: auto;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    font-size:;
     color: var(--primary-text);
 }
 
 .home-return a {
-    font-size: 2.5vw;
     font-weight: bold;
     color: var(--primary-text);
     text-decoration: none;
@@ -38,13 +39,47 @@
 .sub-title {
     display: flex;
     justify-content: center;
+    color: var(--primary-text);
+    font-size: 20px;
+    background-color: var(--background-secondary);
+    border: 6px solid var(--text-hover);
+    border-radius: 20px;
+    margin: 5%;
 }
 
 .body {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    border: 6px solid var(--text-hover);
+    border-radius: 20px;
+    margin: 5%;
+    background-color: var(--background-secondary);
 }
+
+.me-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.me-photo img {
+    max-height: 200px;
+    border: 6px solid var(--text-hover);
+    border-radius: 50%;
+}
+
+.about-main, .about-quote {
+    font-size: x-large;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    color: var(--primary-text);
+    text-align: center;
+    padding: 5%;
+}
+
+.about-quote {
+    font-size: large;
+}
+
 /* Menu Navigation */ 
 .menu-nav {
     display: flex;
