@@ -1,3 +1,9 @@
+:root {
+    --background-primary: #f8f8ff;
+    --primary-text: #7e8aa1;
+    --text-hover: #ffdac1;
+}
+
 .flex-container-header {
     display: flex;
     align-items: center;
