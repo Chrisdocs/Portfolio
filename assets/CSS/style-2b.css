@@ -65,7 +65,7 @@ header {
     background-color: var(--background-secondary);
     border: 6px solid var(--text-hover);
     border-radius: 20px;
-    margin: 5%;
+    margin: 5% 5% 2%;
     margin-top: 100px;
 }
 
@@ -79,8 +79,8 @@ header {
     flex-wrap: wrap;
     border: 6px solid var(--text-hover);
     border-radius: 20px;
-    margin: 5%;
-    background-color: var(--background-secondary);
+    margin: 2% 5% 7%;
+    background-color: var(--primary-text);
 }
 
 /* About me */
@@ -105,10 +105,18 @@ header {
 .about-main, .about-quote {
     font-size: x-large;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
-    color: var(--primary-text);
+    color: var(--text-hover);
     text-align: center;
-    padding: 5%;
-    background-color: var(--background-secondary);
+    padding: 1% 10% 1% 10%;
+    margin: 2% 5% 0 5%;
+    background-color: var(--primary-text);
+}
+
+.about-main:hover {
+    color: var(--primary-text);
+    background-color: var(--text-hover);
+    border-radius: 15px;
+    margin: 2% 5% 0 5%;
 }
 
 .about-quote {
@@ -125,11 +133,25 @@ header {
     margin: 5%;
 }
 
-.box-1, .box-2, .box-3, .box-4 {
+.box-1 {
     position: relative;
 }
 
-.text-run, .text-h, .text-e1, .text-e2 {
+.text-run {
+    position: absolute;
+    top: 58%;
+    left: 1%;
+    margin: 5%;
+    background: var(--text-hover);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%)
+}
+
+.box-2, .box-3, .box-4 {
+    position: relative;
+}
+
+.text-h, .text-e1, .text-e2 {
     position: absolute;
     top: 60%;
     left: 6%;
@@ -156,6 +178,26 @@ header {
 
 .projects a:hover {
     opacity: 0.5;
+}
+
+/* Contact */
+
+.connect-bubbles {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.github, .link, .email {
+    margin: 5%;
+}
+
+.github img, .link img, .email img {
+    background-color: var(--text-hover);
+    border: 20px solid var(--text-hover);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
 }
 
 /* Menu Navigation */ 
@@ -208,3 +250,41 @@ header {
     text-align: center;
     color: var(--primary-text);
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 9999px) {
+    .box-1 {
+        margin: 0 50%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .box-1 {
+        position: relative;
+    }
+
+    .text-run {
+        top: 64%;
+        left: 1%;
+    }
+
+    .box-1 img {
+        content: url(../images/run400.png);
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+
+    .text-run {
+        top: 60%;
+        left: 6%;
+    }
+
+    .box-1 img {
+        content: url(../images/run-snip.png);
+    }
+}
+
