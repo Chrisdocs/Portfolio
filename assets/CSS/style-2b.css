@@ -47,6 +47,7 @@ header {
     background-color: var(--text-hover);
     border-radius: 15px;
     padding: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%)
 }
 
 .home-return a:hover {
@@ -135,6 +136,7 @@ header {
     margin: 5%;
     background: var(--text-hover);
     border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%)
 }
 
 .projects p {
@@ -144,6 +146,7 @@ header {
     font-weight: bold;
     color: var(--primary-text);
     background-color: var(--text-hover);
+}
 
 .projects a img {
     margin: 5px;
@@ -175,6 +178,7 @@ header {
     border-radius: 15px;
     padding: 10px;
     text-decoration: none;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%)
 }
 
 .menu-nav a:hover {
